@@ -1,0 +1,15 @@
+# Backend ignore
+backend/.env
+backend/package-lock.json
+backend/node_modules/
+backend/initDB/
+
+# Frontend > Dashboard ignore
+frontend/dashboard_page/.env
+frontend/dashboard_page/package-lock.json
+frontend/dashboard_page/node_modules/
+
+# Frontend > Landing ignore
+frontend/landing_page/.env
+frontend/landing_page/package-lock.json
+frontend/landing_page/node_modules/
