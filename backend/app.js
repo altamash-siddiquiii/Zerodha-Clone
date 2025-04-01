@@ -11,7 +11,7 @@ const ordersRoutes = require("./routes/ordersRoutes");
 const authRoutes = require("./routes/authRoutes");
 
 app.use(cors({
-    origin: ["https://dashboard-zerodha-p2.onrender.com", "https://zerodha-p2.onrender.com"]
+    origin: ["https://zerodha-landing-p2.onrender.com", "https://dashboard-zerodha-p2.onrender.com"]
 }));
 app.use(bodyParser.json());
 
