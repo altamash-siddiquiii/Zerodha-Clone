@@ -27,3 +27,21 @@
     width: 66%;
     border-radius: 100%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .about-parasRow {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .about-parasRow p {
+        padding: 0 1rem;
+    }
+    .about-heading {
+        padding: 0 3.75rem;
+    }
+    .team-rightParasSection p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

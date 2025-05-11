@@ -83,10 +83,10 @@ function Signup() {
     return (
         <>
             <div className="row signup-content">
-                <div className="col-8">
+                <div className="col-md-8">
                     <img src="/media/images/signup.png" alt="Signup img" />
                 </div>
-                <div className="col-4 px-4">
+                <div className="col-md-4 px-4">
                     {signupStep === 1 && (
                         <>
                             <h3 className="mt-4">Signup now</h3>

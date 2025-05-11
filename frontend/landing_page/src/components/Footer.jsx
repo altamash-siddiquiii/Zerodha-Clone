@@ -5,7 +5,7 @@ function Footer() {
         <footer className="bg-light border-top pt-3 mt-1">
             <div className="container p-4">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md">
                         <img src="/media/images/logo.svg" className="footerLogo" alt="Footer Logo Img" />
                         <p className="f-copyrightInfo">
                             &copy; 2010 - 2024, Zerodha Broking Ltd. <br />
@@ -22,7 +22,7 @@ function Footer() {
                             <a href="https://t.me/zerodhain" target="_blank"><i className="fa-brands fa-telegram"></i></a>
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <h5>Company</h5>
                         <div className="f-mainLinks">
                             <a href="#">About</a>
@@ -42,7 +42,7 @@ function Footer() {
                             <a href="#">Zerodha Cares (CSR)</a>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <h5>Support</h5>
                         <div className="f-mainLinks">
                             <a href="#">Contact us</a>
@@ -64,7 +64,7 @@ function Footer() {
                             <a href="#">Status of your complaints</a>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <h5>Account</h5>
                         <div className="f-mainLinks">
                             <a href="#">Open an account</a>

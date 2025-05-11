@@ -2,7 +2,7 @@ function HeroSection() {
     return (
         <>
             <div className="row py-5 my-5">
-                <h2 className="text-center mt-1 lh-base">
+                <h2 className="text-center mt-1 lh-base about-heading">
                     We pioneered the discount broking model in India.
                     <br />
                     Now, we are breaking ground with our technology.

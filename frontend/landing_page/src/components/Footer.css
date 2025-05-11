@@ -1,15 +1,15 @@
 /* Footer.jsx */
-footer .col .footerLogo {
+footer .col-md .footerLogo {
     width: 59%;
     margin-bottom: 1.2rem;
 }
 
-footer .col h5 {
+footer .col-md h5 {
     font-size: 1.13rem;
     margin-bottom: 1.2rem;
 }
 
-footer .col .f-copyrightInfo {
+footer .col-md .f-copyrightInfo {
     font-size: 0.77rem;
     line-height: 1.77;
     margin-bottom: 0.4rem;
@@ -66,4 +66,17 @@ footer .col .f-copyrightInfo {
     font-size: 1.25rem;
     font-weight: 500;
     margin-left: 0.3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer .col-md .footerLogo {
+        width: 38%;
+    }
+    footer .col-md h5 {
+        margin-top: 1.83rem;
+    }
+    .f-socialMediaIcons a {
+        line-height: 2.9;
+    }
 }

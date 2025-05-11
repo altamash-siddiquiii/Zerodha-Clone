@@ -17,7 +17,9 @@ function HeroSection() {
                     </div>
                     <div className="links mt-2">
                         <a href="#">Track account opening</a>
+                        <br className="d-md-none" />
                         <a href="#">Track segment activation</a>
+                        <br className="d-md-none" />
                         <a href="#">Intraday margins</a>
                         <br />
                         <a href="#">Kite user manual</a>

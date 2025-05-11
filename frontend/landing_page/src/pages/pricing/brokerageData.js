@@ -53,8 +53,52 @@ export const tabsData = {
             },
         ],
     },
-    Currency: {
-        columns: ["", "Currency futures", "Currency options"],
+    FandO: {
+        columns: ["", "F&O - Futures", "F&O - Options"],
+        rows: [
+            {
+                label: "Brokerage",
+                values: [
+                    "0.03% or Rs. 20/executed order whichever is lower",
+                "Flat Rs. 20 per executed order",
+                ],
+    },
+    {
+        label: "STT/CTT",
+        values: [
+                    "0.02% on the sell side",
+        "<li>0.125% of the intrinsic value on options that are bought and exercised</li>\n<li>0.1% on sell side (on premium)</li>",
+                ],
+            },
+{
+    label: "Transaction charges",
+        values: [
+            "NSE: 0.00173%\nBSE: 0",
+            "NSE: 0.03503% (on premium)\nBSE: 0.0325% (on premium)",
+        ],
+            },
+{
+    label: "GST",
+        values: [
+            "18% on (brokerage + SEBI charges + transaction charges)",
+            "18% on (brokerage + SEBI charges + transaction charges)",
+        ],
+            },
+{
+    label: "SEBI charges",
+        values: ["₹10 / crore", "₹10 / crore"],
+            },
+{
+    label: "Stamp charges",
+        values: [
+            "0.002% or ₹200 / crore on buy side",
+            "0.003% or ₹300 / crore on buy side",
+        ],
+            },
+        ],
+    },
+Currency: {
+    columns: ["", "Currency futures", "Currency options"],
         rows: [
             {
                 label: "Brokerage",
@@ -94,8 +138,8 @@ export const tabsData = {
             },
         ],
     },
-    Commodity: {
-        columns: ["", "Commodity futures", "Commodity options"],
+Commodity: {
+    columns: ["", "Commodity futures", "Commodity options"],
         rows: [
             {
                 label: "Brokerage",

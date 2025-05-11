@@ -4,7 +4,7 @@ import "./main.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
-  LayoutWithNavbarAndFooter, LayoutWithoutNavbarAndFooter, LayoutWithoutFooter
+  LayoutWithNavbarAndFooter, LayoutWithoutFooter
 } from "./components/Layouts.jsx";
 import HomePage from "./pages/home/HomePage.jsx";
 import SignupPage from "./pages/signup/SignupPage.jsx";
@@ -21,8 +21,8 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LayoutWithNavbarAndFooter><HomePage /></LayoutWithNavbarAndFooter>} />
-        <Route path="/signup" element={<LayoutWithoutNavbarAndFooter><SignupPage /></LayoutWithoutNavbarAndFooter>} />
-        <Route path="/login" element={<LayoutWithoutNavbarAndFooter><LoginPage /></LayoutWithoutNavbarAndFooter>} />
+        <Route path="/signup" element={<LayoutWithoutFooter><SignupPage /></LayoutWithoutFooter>} />
+        <Route path="/login" element={<LayoutWithoutFooter><LoginPage /></LayoutWithoutFooter>} />
         <Route path="/about" element={<LayoutWithNavbarAndFooter><AboutPage /></LayoutWithNavbarAndFooter>} />
         <Route path="/products" element={<LayoutWithNavbarAndFooter><ProductsPage /></LayoutWithNavbarAndFooter>} />
         <Route path="/pricing" element={<LayoutWithNavbarAndFooter><PricingPage /></LayoutWithNavbarAndFooter>} />

@@ -2,7 +2,12 @@ function Awards() {
     return (
         <div className="row my-3">
             <div className="col-md-6 py-5 pr-5 mr-2">
-                <img src="/media/images/largestBroker.svg" className="pr-5" alt="Largest Broker Image" />
+                <img 
+                    src="/media/images/largestBroker.svg" 
+                    className="img-fluid w-100 px-2" 
+                    alt="Largest Broker Image" 
+                    style={{ maxWidth: "100%", height: "auto", display: "block" }}
+                />
             </div>
             <div className="col-md-6 py-5 pl-5 ml-2">
                 <h2 className="mt-4 mb-2">

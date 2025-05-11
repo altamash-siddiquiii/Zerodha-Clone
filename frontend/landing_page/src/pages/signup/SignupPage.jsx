@@ -1,16 +1,16 @@
 import "./SignupPage.css";
-import SignupNavbar from "./SignupNavbar.jsx";
 import Signup from "./Signup.jsx";
 import SignupRules from "./SignupRules.jsx";
-import SignupFooter from "./SignupFooter.jsx";
+import SupportFooter from "../support/SupportFooter.jsx";
 
 function SignupPage() {
     return (
-        <div className="container signup-container">
-            <SignupNavbar />
+        <div className="container">
+            <div className="signup-container">
             <Signup />
             <SignupRules />
-            <SignupFooter />
+            </div>
+            <SupportFooter />
         </div>
     );
 }

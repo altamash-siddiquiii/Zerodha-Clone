@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-md bg-body-tertiary border-bottom sticky-top navbarNav">
-            <div className="container px-4">
-                <Link to="/" className="navbar-brand">
+            <div className="container px-4 d-flex justify-content-between align-items-center">
+                <div><Link to="/" className="navbar-brand">
                     <img src="/media/images/logo.svg" className="navbarLogo" alt="Logo Image" />
-                </Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </Link></div>
+                <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">

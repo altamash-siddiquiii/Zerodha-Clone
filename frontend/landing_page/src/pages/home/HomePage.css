@@ -76,3 +76,23 @@
     width: 86.25%;
     height: 100%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .pricing-rightRow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.5rem;
+        padding: 0 0.5rem;
+    }
+
+    .pricing-rightRow .col {
+        flex: 0 0 45%;
+    }
+
+    .pricing-rightRow .pricing-text {
+        padding-bottom: 1.5rem;
+        padding-left: 0.25rem;
+    }
+}

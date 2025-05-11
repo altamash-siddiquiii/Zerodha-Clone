@@ -106,3 +106,27 @@
     padding: 4px 10px;
     border-radius: 2px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .pricingComp img {
+        width: 39%;
+        margin-bottom: 0.55rem;
+    }
+    .pricing-brokerage .tabs h4 {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 18px;
+    }
+    .pricing-brokerage .tabs .active {
+        border-bottom: 2.4px solid #00f;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    .brokerageTable thead th:nth-of-type(4),
+    .brokerageTable thead th:nth-of-type(5),
+    .brokerageTable tbody td:nth-of-type(4),
+    .brokerageTable tbody td:nth-of-type(5) {
+        display: none;
+    }
+}

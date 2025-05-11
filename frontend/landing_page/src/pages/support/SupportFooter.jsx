@@ -5,7 +5,7 @@ function SupportFooter() {
         <footer className="bg-light border-top pt-3 mt-1">
             <div className="container p-4">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md">
                         <img src="/media/images/logo.svg" className="footerLogo" alt="Footer Logo Img" />
                         <p className="f-number mb-2">
                             <svg className="mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={18} height={18} color={"#000000"} fill={"true"}>
@@ -23,7 +23,7 @@ function SupportFooter() {
                             <a href="https://www.linkedin.com/company/zerodha" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a>
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <h5>Company</h5>
                         <div className="f-mainLinks">
                             <a href="#">About</a>
@@ -41,7 +41,7 @@ function SupportFooter() {
                             <a href="#">Zerodha Cares (CSR)</a>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <h5>Support</h5>
                         <div className="f-mainLinks">
                             <a href="#">Contact us</a>
@@ -55,7 +55,7 @@ function SupportFooter() {
                             <a href="#">Downloads & resources</a>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-md">
                         <h5>Account</h5>
                         <div className="f-mainLinks">
                             <a href="#">Open an account</a>

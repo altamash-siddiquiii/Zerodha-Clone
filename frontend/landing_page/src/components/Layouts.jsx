@@ -10,11 +10,6 @@ export function LayoutWithNavbarAndFooter({ children }) {
         </>
     );
 }
-export function LayoutWithoutNavbarAndFooter({ children }) {
-    return (
-        <>{children}</>
-    );
-}
 export function LayoutWithoutFooter({ children }) {
     return (
         <>

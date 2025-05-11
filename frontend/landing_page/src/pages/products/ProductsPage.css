@@ -104,3 +104,42 @@
 .universeSignUpBtn button {
     margin: -1.75rem 0 5rem 0;
 }
+
+
+@media screen and (max-width: 768px) {
+    .leftImgSection .firstHalf img, .rightImgSection .secondHalf img {
+        margin-left: 0;
+        padding: 0.25rem;
+        width: 99% !important;
+    }
+    .leftImgSection {
+        margin-top: -8rem;
+    }
+    .leftImgSection .secondHalf {
+        margin-top: -10rem;
+    }
+    .rightImgSection {
+        margin-top: -14rem;
+    }
+    .rightImgSection .secondHalf {
+        margin-top: -5rem;
+        margin-bottom: 6rem;
+    }
+    .kiteConnect img {
+        margin-top: 0.8rem !important;
+        margin-bottom: 4rem;
+    }
+    .varsityMobile .firstHalf img {
+        width: 95% !important;
+        margin-bottom: 0.8rem;
+    }
+    .leftImgSection .secondHalf .secondLinks img {
+        width: 38% !important;
+    }
+    .universeLogos {
+        padding: 2rem;
+    }
+    .rightImgSection .secondHalf img {
+        width: 110% !important;
+    }
+}
